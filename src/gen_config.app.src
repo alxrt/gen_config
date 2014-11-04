@@ -1,0 +1,12 @@
+{application, gen_config,
+ [
+  {description, "Erlang configuration engine"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { gen_config_app, []}},
+  {env, []}
+ ]}.
